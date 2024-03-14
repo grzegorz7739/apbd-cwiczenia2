@@ -5,7 +5,7 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World!");
 
-static double GetAverage(int[] arr)
+static double GetAvg(int[] arr)
 {
     double res = 0.0;
     for (int i  = 0; i < arr.Length; i++)
@@ -31,7 +31,6 @@ static int GetMaxVal(int[] arr)
 }
 
 int[] arr = {1,2,3,4};
-double average = GetAverage(arr);
+double average = GetAvg(arr);
 Console.WriteLine(average);
 
-Console.WriteLine(GetMaxVal(arr));
